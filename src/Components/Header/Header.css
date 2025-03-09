@@ -1,0 +1,60 @@
+.header {
+    display: flex;
+    width: 100%;
+    padding: 20px 5%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    align-items: center;
+  }
+  
+  .logo {
+    width: 55%;
+  }
+  
+  .logo img {
+    max-width: 100%;
+  }
+  
+  .nav-container {
+    display: flex;
+    width: 45%;
+    min-width: 500px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .nav-links p {
+    white-space: nowrap;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .nav-links p:hover {
+    color: #0077cc;
+  }
+  
+  .sign-in {
+    background-color: #38bdf8;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .sign-in button {
+    color: white;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .sign-in:hover {
+    background-color: #0284c7;
+  }
+  
